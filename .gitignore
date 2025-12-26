@@ -1,0 +1,22 @@
+# Qt build files
+build/
+*.user
+*.pro.user*
+*.moc
+*.qrc.cpp
+*.o
+*.obj
+*.exe
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# Qt Creator / IDE files
+*.layout
+*.autosave
+
+# OpenCV / binaries
+*.dll
+*.lib
+*.pdb
