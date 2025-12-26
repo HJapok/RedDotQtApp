@@ -1,0 +1,14 @@
+Intall QT6
+Install CMake
+Intall Opencv
+Build Opencv mingw using Cmake
+
+
+
+
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ^ -DQt6_DIR=C:\Qt\6.10.1\mingw_64\lib\cmake\Qt6 ^ ..
+mingw32-make
+"C:\Qt\6.10.1\mingw_64\bin\windeployqt.exe" RedDotQtApp.exe
+
